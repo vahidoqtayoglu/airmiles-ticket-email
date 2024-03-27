@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 80%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 40%;
+  object-fit: contain;
+}
+.pnr-number {
+  background-color: #0896e0;
+  width: 30%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0;
+  border-radius: 8px;
+  box-shadow: 2.5px 2.5px 2.5px 2.5px #e1e1e1;
+}
+.electronic-ticket {
+  margin-top: 30px;
+}
+
+.electronic-ticket div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.electronic-ticket h1 {
+  width: 30%;
+  text-align: center;
+  font-size: 40px;
+  color: #0e22d2;
+}
+.electronic-ticket h3 {
+  font-size: 26px;
+  color: #0e22d2;
+  font-weight: 700;
+}
+.information {
+  margin-top: 30px;
+}
+
+.information h2 {
+  color: #0e22d2;
+  font-size: 26px;
+}
+.information ul {
+  margin: 5px 0px;
+  padding-left: 18px;
+  font-size: 18px;
+}
+
+.passenger-information,
+.flight-information,
+.payment-information,
+.during-flight {
+  margin-top: 30px;
+}
+
+.passenger-information .title,
+.flight-information .title,
+.payment-information .title,
+.during-flight .title {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #0896e0;
+  background-color: #0896e0;
+  display: flex;
+  color: white;
+}
+
+.passenger-information .title h4,
+.flight-information .title h4,
+.payment-information .title h4,
+.during-flight .title h4 {
+  padding: 5px 0 5px 5px;
+  width: 33%;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.passenger-information .description,
+.payment-information .description,
+.flight-information .description {
+  margin-top: 3px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #f4f5f6;
+  background-color: #f4f5f6;
+  display: flex;
+  color: black;
+  box-shadow: 2.5px 2.5px 2.5px 0px #e1e1e1;
+}
+
+.passenger-information .description h4,
+.payment-information .description h4,
+.flight-information .description h4 {
+  padding: 5px 0 5px 5px;
+  width: 33%;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.payment-information .description-title,
+.flight-information .description-title {
+  margin-top: 3px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #f4f5f6;
+  background-color: #f4f5f6;
+  display: flex;
+  color: black;
+  box-shadow: 2.5px 2.5px 2.5px 0px #e1e1e1;
+}
+
+.payment-information .description-title h4,
+.flight-information .description-title h4 {
+  padding: 5px 0 5px 5px;
+  width: 33%;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.payment-information .description-title h4:last-child {
+  text-align: right;
+}
+
+.payment-information .description h4:last-child {
+  text-align: right;
+}
+
+.during-flight .descriptions {
+  margin-top: 3px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.during-flight .descriptions .description {
+  border-radius: 6px;
+  border: 1px solid #f4f5f6;
+  background-color: #f4f5f6;
+  box-shadow: 2.5px 2.5px 2.5px 0px #e1e1e1;
+}
+
+.during-flight .descriptions .description h2 {
+  color: #0e22d2;
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.during-flight .descriptions .description h3 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.during-flight .descriptions ul {
+  margin: 5px 10px;
+  padding: 0px 0px 5px 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin: 80px 0 30px 0;
+  font-weight: 500;
+}
